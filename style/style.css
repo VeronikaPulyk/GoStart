@@ -1,0 +1,173 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+}
+h2{
+	font-weight: 300;
+}
+.wrapper {
+	max-width: 900px;
+	margin: 0 auto;
+}
+#hero {
+	background-image: url('../images/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+
+}
+.logo {
+	float: left;
+}
+.menu-nav-outer {
+	float: right;
+}
+.header {
+	overflow: hidden;
+	padding-top: 55px;
+}
+.menu li.menu-item a{
+	color: #fff;
+	text-decoration: none;
+	transition: .2s;
+}
+.menu li.menu-item a:focus,
+.menu li.menu-item a:hover{
+	color: #aaa;
+
+}
+.menu-item {
+	list-style-type: none;
+	display: inline-block;
+	padding: 5px;
+	margin-right: 10px;
+}
+.menu-item:last-child {
+	margin-right: 0;
+}
+.hero-content {
+	margin-top: 155px;
+	text-align: center;
+}
+.subheading {
+	font-weight: 100;
+	font-size: 31px;
+}
+.hero-heading {
+	font-size: 63px;
+	font-weight: 500;
+	margin-top: 50px;
+	text-transform: uppercase;
+}
+.hero-btn {
+	margin: 80px 0 120px;
+	padding: 20px 65px;
+	font-size: 22px;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	background-color: transparent;
+	color: #fff;
+	text-transform: capitalize;
+	transition: .5s;
+}
+.hero-btn:focus,
+.hero-btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+.service-inner {
+	overflow: hidden;
+	padding: 80px 0;
+}
+.pull-left {
+	float: left;
+}
+.pull-right {
+	float: right;
+}
+.services-text {
+	width: 65%;
+}
+.services-text h2{
+	text-transform: capitalize;
+	font-size: 55px;
+}
+.id-brand {
+	background-color: #fafafa;
+}
+.services-paragraph {
+	margin: 35px 0;
+	color: #767676;
+}
+.service-inner img {
+	margin-top: 30px;
+}
+.skill-item {
+	overflow: hidden;
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+.skill-inner {
+	padding: 10px;
+}
+.skill-item img {
+	width: 72px;
+	margin-top: 0;
+}
+.row {
+	margin-bottom: 45px;
+	overflow: hidden;
+}
+.skill-text {
+	width: calc(100% - 85px);
+	padding: 0 5px;
+}
+.skill-text h3{
+	font-size: 20px;
+	text-transform: capitalize;
+}
+.skill-description {
+	color: #767676;
+}
+.text {
+	text-align: center;
+}
+h4 {
+	font-weight: 300;
+	font-size: 70px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.clients img {
+	width: 200px;
+}
+.clients {
+	margin: 50px 0 50px;
+	overflow: hidden;
+	background-color: #fafafa;
+}
+.service-inner p {
+
+}
+h5 {
+	font-weight: 100;
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 70px;
+}
+.clients-btn {
+	background-color: #fff;
+	margin: 30px 0 60px;
+	padding: 0 0 30px;
+	width: 620px;
+	font-size: 20px;
+	border: 2px solid #a9a9a9;
+	border-radius: 5px;
+}
